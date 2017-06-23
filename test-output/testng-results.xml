@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Main Test Suite" duration-ms="5516" started-at="2017-06-23T06:16:56Z" finished-at="2017-06-23T06:17:01Z">
+    <groups>
+    </groups>
+    <test name="TestNG Test Group" duration-ms="5516" started-at="2017-06-23T06:16:56Z" finished-at="2017-06-23T06:17:01Z">
+      <class name="com.TestNGTest">
+        <test-method status="PASS" signature="lauchBrowser()[pri:0, instance:com.TestNGTest@3e6fa38a]" name="lauchBrowser" duration-ms="5497" started-at="2017-06-23T11:46:56Z" finished-at="2017-06-23T11:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+      </class> <!-- com.TestNGTest -->
+    </test> <!-- TestNG Test Group -->
+  </suite> <!-- Main Test Suite -->
+</testng-results>
