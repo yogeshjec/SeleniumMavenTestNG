@@ -14,6 +14,6 @@ public class TestNGTest {
 	driver.manage().window().maximize();
 	driver.get("https://news.google.co.in/");
 	System.out.println("Page Title: "+driver.getTitle());
-	driver.close();
+	//driver.close();
 	}
 }
