@@ -12,8 +12,10 @@ public class TestNGTest {
 	System.setProperty("webdriver.chrome.driver", "./driver//chromedriver.exe");
 	driver=new ChromeDriver();
 	driver.manage().window().maximize();
-	driver.get("https://news.google.co.in/");
+	//driver.get("https://news.google.co.in/");
+	driver.get("https://www.ndtv.com/");
 	System.out.println("Page Title: "+driver.getTitle());
+		System.out.println("Digital Assurance  || Testing Done :: Thannk You");
 	//driver.close();
 	}
 }
