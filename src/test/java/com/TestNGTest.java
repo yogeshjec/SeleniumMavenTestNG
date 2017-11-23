@@ -8,6 +8,13 @@ public class TestNGTest {
 
 	public WebDriver driver;
 	@Test
+  	public void testAdd() {
+      		String str= "Junit is working fine";
+      		assertEquals("Junit is working fine",str);
+		System.out.println("Junit   || Junit Testing Done :: Thannk You");
+   	}
+	
+	@Test
 	public void lauchBrowser(){
 	System.setProperty("webdriver.chrome.driver", "./driver//chromedriver.exe");
 	driver=new ChromeDriver();
