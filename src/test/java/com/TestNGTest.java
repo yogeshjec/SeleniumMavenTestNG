@@ -19,11 +19,12 @@ public class TestNGTest {
 	public void lauchBrowser(){
 	System.setProperty("webdriver.chrome.driver", "./driver//chromedriver.exe");
 	driver=new ChromeDriver();
-	driver.manage().window().maximize();
+	// driver.manage().window().maximize(); -- issue with this line - chrome driver 2.29
 	//driver.get("https://news.google.co.in/");
 	driver.get("https://www.ndtv.com/");
 	System.out.println("Page Title: "+driver.getTitle());
-		System.out.println("Digital Assurance  || Testing Done :: Thannk You");
+	System.out.println("Digital Assurance  || Testing Done :: Thannk You");
+	assertEquals("DONE","DONE");
 	//driver.close();
 	}
 }
