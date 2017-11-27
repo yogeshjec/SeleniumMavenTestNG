@@ -16,6 +16,19 @@ public class TestNGTest {
    	}
 	
 	@Test
+  	public void testSonarIFELSE() {
+		int x = 1;
+		if (x == 0)
+		{
+  			System.out.println("Sonar IF ");
+		} else if (x == 1)
+		{
+  			System.out.println("Sonar ELSE IF ");
+		}
+	     System.out.println("SONAR QUBE   || Soanr Testing Done :: Thank You");
+	}
+	
+	@Test
 	public void lauchBrowser(){
 	System.setProperty("webdriver.chrome.driver", "./driver//chromedriver.exe");
 	driver=new ChromeDriver();
