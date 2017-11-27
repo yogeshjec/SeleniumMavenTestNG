@@ -21,6 +21,14 @@ public class TestNGTest {
 		if (x == 0)
 		{
   			System.out.println("Sonar IF ");
+			if (x == 0)
+			{
+				System.out.println("Sonar IF2 ");
+				if (x == 0)
+				{
+					System.out.println("Sonar IF3 ");
+				} 
+			} 
 		} else if (x == 1)
 		{
   			System.out.println("Sonar ELSE IF ");
